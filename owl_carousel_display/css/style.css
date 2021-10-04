@@ -1,0 +1,32 @@
+/* Style Sheet */
+
+.owl-carousel-our-projects .owl-nav {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    transform: translate(0%, -50%);
+    display: flex!important;
+    justify-content: space-between;
+    z-index: -1;
+    height: 50px;
+}
+.owl-carousel-our-projects .owl-nav button.owl-prev {
+    background-color: #fba500!important;
+    width: 15px;
+    font-size: 25px!important;
+    font-weight: bold!important;
+    margin: 0!important;
+    padding-bottom: 10px!important;
+    border-radius: 0!important;
+    transform: translate(-100%, 0%);
+}
+.owl-carousel-our-projects .owl-nav button.owl-next {
+    background-color: #fba500!important;
+    width: 15px;
+    font-size: 25px!important;
+    font-weight: bold!important;
+    margin: 0!important;
+    border-radius: 0!important;
+    transform: translate(100%, 0%);
+}
